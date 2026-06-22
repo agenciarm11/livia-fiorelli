@@ -1,0 +1,8 @@
+# Configuração do projeto Supabase (usada pelo CLI e pela integração com o GitHub).
+# Para regenerar com os padrões da sua versão do CLI, rode: supabase init
+# O `project_id` é só um identificador local/do repositório.
+project_id = "livia-fiorelli"
+
+[db]
+# Versão do Postgres do projeto de origem.
+major_version = 17

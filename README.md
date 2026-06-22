@@ -7,6 +7,8 @@ Backup da estrutura do banco do projeto **Lívia Fiorelli** (Supabase).
 - **Conteúdo:** apenas o schema (`public`) — **sem dados**.
 - **Origem:** estrutura clonada integralmente do projeto BIORESSONÂNCIA.
 
+> 📘 **Passo a passo completo** (recriar este projeto no seu Supabase + conectar Supabase ↔ GitHub): veja **[INSTRUCOES.md](INSTRUCOES.md)**.
+
 ## Estrutura
 
 | Tabela | Descrição |
