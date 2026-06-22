@@ -20,7 +20,7 @@ Backup da estrutura do banco do projeto **Lívia Fiorelli** (Supabase).
 
 As 3 foreign keys usam `ON DELETE CASCADE`. RLS está habilitado nas 4 tabelas (sem policies).
 
-> As tabelas usam o prefixo `livia_fiorelli_` (aplicado pela migration `0002_rename_tables_livia_fiorelli.sql`). Aplique as migrations em ordem (`0001` → `0002`) para chegar ao estado final.
+> As tabelas usam o prefixo `livia_fiorelli_` (aplicado pela migration `0002_rename_tables_livia_fiorelli.sql`). Aplique as migrations em ordem (`0001` → `0002` → `0003`) para chegar ao estado final.
 
 > Obs.: os comentários das tabelas ainda referenciam o projeto de origem ("Patrícia Domingos"), pois a estrutura foi clonada fielmente. Ajuste se desejar adequar ao contexto da Lívia.
 
