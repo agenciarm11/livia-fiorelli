@@ -13,12 +13,14 @@ Backup da estrutura do banco do projeto **Lívia Fiorelli** (Supabase).
 
 | Tabela | Descrição |
 |---|---|
-| `tabela_1_leads` | Central de leads (PK `lead_id`; `whatsapp` e `cpf` únicos) |
-| `tabela_2_participacoes` | Participações dos leads (FK → `tabela_1_leads`) |
-| `tabela_3_precheckout` | Leads que preencheram o pré-checkout (FK → `tabela_1_leads`) |
-| `tabela_4_alunos` | Compradores de cursos (FK → `tabela_1_leads`) |
+| `livia_fiorelli_tabela_1_leads` | Central de leads (PK `lead_id`; `whatsapp` e `cpf` únicos) |
+| `livia_fiorelli_tabela_2_participacoes` | Participações dos leads (FK → `livia_fiorelli_tabela_1_leads`) |
+| `livia_fiorelli_tabela_3_precheckout` | Leads que preencheram o pré-checkout (FK → `livia_fiorelli_tabela_1_leads`) |
+| `livia_fiorelli_tabela_4_alunos` | Compradores de cursos (FK → `livia_fiorelli_tabela_1_leads`) |
 
 As 3 foreign keys usam `ON DELETE CASCADE`. RLS está habilitado nas 4 tabelas (sem policies).
+
+> As tabelas usam o prefixo `livia_fiorelli_` (aplicado pela migration `0002_rename_tables_livia_fiorelli.sql`). Aplique as migrations em ordem (`0001` → `0002`) para chegar ao estado final.
 
 > Obs.: os comentários das tabelas ainda referenciam o projeto de origem ("Patrícia Domingos"), pois a estrutura foi clonada fielmente. Ajuste se desejar adequar ao contexto da Lívia.
 
