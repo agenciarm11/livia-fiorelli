@@ -7,7 +7,15 @@ Backup da estrutura do banco do projeto **Lívia Fiorelli** (Supabase).
 - **Conteúdo:** apenas o schema (`public`) — **sem dados**.
 - **Origem:** estrutura clonada integralmente do projeto BIORESSONÂNCIA.
 
-> 📘 **Passo a passo completo** (recriar este projeto no seu Supabase + conectar Supabase ↔ GitHub): veja **[INSTRUCOES.md](INSTRUCOES.md)**.
+## 🚀 Copiar em 30 segundos (jeito mais rápido)
+
+1. Crie um **projeto novo** no [Supabase](https://supabase.com/dashboard).
+2. Abra **SQL Editor → New query**.
+3. Abra o arquivo **[`schema_completo.sql`](schema_completo.sql)**, copie tudo, cole e clique **Run**.
+
+Pronto — todas as tabelas, índices, chaves e RLS criados de uma vez, na ordem certa. Sem instalar nada.
+
+> 📘 Quer o caminho profissional (Supabase CLI) ou conectar Supabase ↔ GitHub? Veja o **[INSTRUCOES.md](INSTRUCOES.md)**.
 
 ## Estrutura
 

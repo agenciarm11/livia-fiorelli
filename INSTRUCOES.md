@@ -28,11 +28,11 @@ Há dois caminhos. O **Método 1** é o mais rápido (não instala nada). O **M�
 
 1. Acesse https://supabase.com/dashboard e clique em **New project**. Dê um nome, escolha a região (ex.: *South America (São Paulo)*) e **guarde a senha do banco**.
 2. Espere o projeto subir. No menu lateral, abra **SQL Editor** → **New query**.
-3. Neste repositório, abra o arquivo **`supabase/migrations/0001_init_schema.sql`** e **copie todo o conteúdo**.
+3. Neste repositório, abra o arquivo **`schema_completo.sql`** (na raiz) e **copie todo o conteúdo**.
 4. **Cole** no SQL Editor e clique em **Run** (ou `Ctrl/Cmd + Enter`).
 5. Pronto. Vá em **Table Editor** e confirme as 4 tabelas: `livia_fiorelli_tabela_1_leads`, `livia_fiorelli_tabela_2_participacoes`, `livia_fiorelli_tabela_3_precheckout`, `livia_fiorelli_tabela_4_alunos`.
 
-> ℹ️ Pelo SQL Editor, rode **na ordem**: `0001_init_schema.sql` (cria as tabelas) → `0002_rename_tables_livia_fiorelli.sql` (aplica o prefixo `livia_fiorelli_`) → `0003_update_comments.sql` (ajusta os comentários).
+> ℹ️ O `schema_completo.sql` já traz **tudo num arquivo só, na ordem certa**. Os arquivos em `supabase/migrations/` servem para o caminho via CLI/integração GitHub (Método 2 e Parte B).
 
 ### Método 2 — Supabase CLI (recomendado)
 
